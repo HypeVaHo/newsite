@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Для Виктории ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">V ❤️</a>
+            <div class="nav-menu" id="navMenu">
+                <a href="#hero" class="nav-link">Главная</a>
+                <a href="#about" class="nav-link">О нас</a>
+                <a href="#memories" class="nav-link">Воспоминания</a>
+                <a href="#reasons" class="nav-link">Почему ты</a>
+                <a href="#letter" class="nav-link">Письмо</a>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="hero-title-line">Для самой</span>
+                <span class="hero-title-line hero-title-main">Виктории</span>
+            </h1>
+            <p class="hero-subtitle">Есть слова, которые я хочу тебе сказать...</p>
+            <button class="hero-button" onclick="smoothScroll('#about')">
+                Узнать больше
+                <svg class="hero-button-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Наша история</h2>
+                    <p class="about-paragraph">
+                        Мы начали как друзья, и это было прекрасно. Каждый разговор с тобой, 
+                        каждая улыбка, каждый момент вместе — всё это наполняло мои дни смыслом.
+                    </p>
+                    <p class="about-paragraph">
+                        Но где-то по пути я понял, что дружба — это уже не всё, что я чувствую. 
+                        Мои чувства выросли во что-то большее, глубже, сильнее.
+                    </p>
+                    <p class="about-paragraph">
+                        И теперь я знаю: я хочу быть не просто твоим другом. 
+                        Я хочу быть рядом с тобой по-настоящему.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Memories Section -->
+    <section id="memories" class="memories">
+        <div class="container">
+            <h2 class="section-title center">Моменты, которые я храню</h2>
+            <p class="section-subtitle">Каждое воспоминание с тобой особенное</p>
+            
+            <div class="memories-grid">
+                <div class="memory-card" data-aos="fade-up">
+                    <div class="memory-icon">☕</div>
+                    <h3 class="memory-title">Наши разговоры</h3>
+                    <p class="memory-text">
+                        Часы пролетают незаметно, когда мы говорим. Ты умеешь слушать и понимать, 
+                        как никто другой.
+                    </p>
+                </div>
+                
+                <div class="memory-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="memory-icon">😊</div>
+                    <h3 class="memory-title">Твоя улыбка</h3>
+                    <p class="memory-text">
+                        Когда ты улыбаешься, весь мир становится ярче. Твоя улыбка — 
+                        это то, что делает мой день лучше.
+                    </p>
+                </div>
+                
+                <div class="memory-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="memory-icon">🌟</div>
+                    <h3 class="memory-title">Твоя энергия</h3>
+                    <p class="memory-text">
+                        Рядом с тобой я чувствую себя живым. Твоя энергия заразительна, 
+                        и я хочу быть её частью.
+                    </p>
+                </div>
+                
+                <div class="memory-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="memory-icon">🎵</div>
+                    <h3 class="memory-title">Общие интересы</h3>
+                    <p class="memory-text">
+                        Мы так много разделяем вместе — музыку, мечты, взгляды на жизнь. 
+                        С тобой я чувствую связь.
+                    </p>
+                </div>
+                
+                <div class="memory-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="memory-icon">💭</div>
+                    <h3 class="memory-title">Понимание</h3>
+                    <p class="memory-text">
+                        Ты понимаешь меня без слов. Это редкий дар, и я ценю его 
+                        больше всего на свете.
+                    </p>
+                </div>
+                
+                <div class="memory-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="memory-icon">✨</div>
+                    <h3 class="memory-title">Каждый момент</h3>
+                    <p class="memory-text">
+                        Даже простые моменты с тобой становятся особенными. 
+                        Ты делаешь обычное — волшебным.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reasons Section -->
+    <section id="reasons" class="reasons">
+        <div class="container">
+            <h2 class="section-title center">Почему именно ты</h2>
+            <p class="section-subtitle">Причин бесконечно много, но вот главные</p>
+            
+            <div class="reasons-list">
+                <div class="reason-item" data-aos="slide-right">
+                    <div class="reason-number">01</div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Ты делаешь меня лучше</h3>
+                        <p class="reason-text">
+                            Рядом с тобой я хочу быть лучшей версией себя. Ты вдохновляешь меня 
+                            расти, развиваться и не бояться быть собой.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="reason-item" data-aos="slide-left">
+                    <div class="reason-number">02</div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">С тобой я чувствую себя дома</h3>
+                        <p class="reason-text">
+                            Неважно, где мы находимся — когда ты рядом, я чувствую тепло, 
+                            уют и безопасность. Ты — мой дом.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="reason-item" data-aos="slide-right">
+                    <div class="reason-number">03</div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Ты особенная</h3>
+                        <p class="reason-text">
+                            Твоя доброта, ум, чувство юмора, твоя душа — всё в тебе уникально. 
+                            Я никогда не встречал никого подобного.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="reason-item" data-aos="slide-left">
+                    <div class="reason-number">04</div>
+                    <div class="reason-content">
+                        <h3 class="reason-title">Я вижу будущее с тобой</h3>
+                        <p class="reason-text">
+                            Когда я думаю о будущем, я вижу тебя рядом. Все мои мечты и планы 
+                            включают тебя, потому что без тебя они неполные.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Letter Section -->
+    <section id="letter" class="letter">
+        <div class="container">
+            <div class="letter-content">
+                <div class="letter-header">
+                    <h2 class="letter-title">Дорогая Виктория,</h2>
+                    <div class="letter-decoration"></div>
+                </div>
+                
+                <div class="letter-body">
+                    <p class="letter-paragraph">
+                        Я долго думал, как сказать тебе это. Писал и переписывал эти слова 
+                        сотни раз в голове. Но в итоге понял: нужно просто быть честным.
+                    </p>
+                    
+                    <p class="letter-paragraph">
+                        Я люблю тебя.
+                    </p>
+                    
+                    <p class="letter-paragraph">
+                        Не как друга, хотя ты — лучший друг, которого я мог бы пожелать. 
+                        Я люблю тебя так, что думаю о тебе каждый день. Так, что твоя улыбка 
+                        заставляет моё сердце биться быстрее. Так, что я хочу быть рядом с тобой 
+                        не только в хорошие моменты, но и в трудные.
+                    </p>
+                    
+                    <p class="letter-paragraph">
+                        Я знаю, что мы друзья, и я дорожу этим больше всего. Но я не могу больше 
+                        молчать о том, что чувствую. Я хочу быть с тобой. Хочу держать тебя за руку. 
+                        Хочу строить с тобой что-то настоящее.
+                    </p>
+                    
+                    <p class="letter-paragraph">
+                        Я понимаю, если тебе нужно время подумать. Я понимаю, если ты не чувствуешь 
+                        того же. Но я должен был сказать тебе правду, потому что ты заслуживаешь 
+                        знать, как много ты значишь для меня.
+                    </p>
+                    
+                    <p class="letter-paragraph">
+                        Что бы ты ни решила, я буду уважать твой выбор. Но я надеюсь — 
+                        надеюсь всем сердцем — что ты дашь нам шанс.
+                    </p>
+                    
+                    <p class="letter-paragraph letter-signature">
+                        С любовью и надеждой,<br>
+                        <span class="signature-line">Твой</span>
+                    </p>
+                </div>
+                
+                <div class="letter-footer">
+                    <div class="heart-animation">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">Создано с любовью для Виктории ❤️</p>
+            <p class="footer-date" id="currentDate"></p>
+        </div>
+    </footer>
+
+    <!-- Floating Hearts -->
+    <div class="floating-hearts" id="floatingHearts"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
